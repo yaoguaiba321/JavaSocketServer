@@ -93,6 +93,9 @@ public class AppServer
 			e.printStackTrace();
 		}
 	}
+	/**
+	* 用于启动服务器，开始监听是否有Socket接入客户端
+	*/
 	public void execute() //运行服务器
 	{
 		
