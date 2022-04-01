@@ -32,14 +32,9 @@ public class SocketThread implements Runnable
 			System.out.println("客户端发来的信息："+msg);
 			String realMsg = null;
       
-      //以下是两个示例
+      //以下是1个示例
       
-			//登录模块
-			if(msg.startsWith(ForInet.loginProtocol))
-			{
-				LoginModule lm = new LoginModule(msg,ps,conn);
-				lm.execute();
-			}
+			
 			//请求用户信息模块
 			if(msg.startsWith(ForInet.getUserInfoProtocol))
 			{
