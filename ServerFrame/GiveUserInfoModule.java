@@ -3,7 +3,11 @@ import java.sql.*;
 import java.io.*;
 import com.alibaba.fastjson.*;
 
-
+/**
+* 这是XXXModule继承ModuleFather的示例，你自己写的XXXModule只需要继承ModuleFather后按照如下示例重写task()方法即可
+* @author 会编程的cpu
+* @version 1.0
+*/
 public class GiveUserInfoModule extends ModuleFather
 {
 	public GiveUserInfoModule(String msg, PrintStream ps,Connection conn)
