@@ -3,6 +3,13 @@ import java.sql.*;
 import java.io.*;
 import com.alibaba.fastjson.*;
 
+/**
+* 服务器所以业务代码的父类
+* 封装好了，JDBC的一些类，Socket的一些固定代码，还有fastjson的固定部分，
+* 看懂逻辑即可，无需修改，
+* @author 会编程的cpu
+* @version 1.0
+*/
 public abstract class ModuleFather
 {
 	//使用的协议
