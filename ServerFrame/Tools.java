@@ -4,6 +4,11 @@ import java.sql.*;
 import java.net.*;
 import java.io.*;
 
+/**
+* 一个工具类
+* @author 会编程的cpu
+* @version 1.0
+*/
 public class Tools
 {
   /**
